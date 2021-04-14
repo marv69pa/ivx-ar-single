@@ -17,9 +17,9 @@
     #ar-button {
     background-image: url(asset/ariconewhite.png);
     background-repeat: no-repeat;
-    background-size: 30px 30px;
+    background-size: 22px 26px;
     background-position: 12px 50%;
-    background-color: #6ac96f;
+    background-color: #42B655;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -27,12 +27,12 @@
     bottom: 35px;
     padding: 0px 16px 0px 45px;
     font-family: Roboto Regular, Helvetica Neue, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     color:#ffffff;
     height: 36px;
     line-height: 36px;
     border-radius: 18px;
-    border: 1px solid #000000;
+    border: 0px solid #000000;
   }
     #ar-button:active {
     background-color: #E8EAED;
@@ -64,7 +64,7 @@
   </style>
 
 <body>
-  <model-viewer src="asset/IVX Surfaces4-Single.glb" ar ar-modes="webxr scene-viewer quick-look" ios-src="asset/IVX Surfaces4-Single.usdz" shadow-intensity="3.2" ar ar-scale="fixed" ar ar-placement="floor" exposure=".65" shadow-softness="1" camera-controls ar autoplay auto-rotate="">
+  <model-viewer src="asset/IVX Station AR1 JAE.glb" ar ar-modes="webxr scene-viewer quick-look" ios-src="asset/IVX Surfaces4-Single.usdz" shadow-intensity="5.0" environment-image="asset/workshop.hdr" ar-scale="fixed" ar ar-placement="floor" exposure="1.2" shadow-softness="1" camera-controls ar autoplay auto-rotate="">
     <button slot="ar-button" id="ar-button">
     View in your space
   </button>
