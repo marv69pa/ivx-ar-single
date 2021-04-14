@@ -9,6 +9,13 @@
    and (min-device-width : 320px)
    and (max-device-width : 480px){ .mobileShow { display: inline;}}
 </style>
+  style type="text/css">
+   .mobileHide { display: inline;}
+   /* Smartphone Portrait and Landscape */
+   @media only screen
+   and (min-device-width : 320px)
+   and (max-device-width : 480px){  .mobileHide { display: none;}}
+</style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Omnicell IVX Station Model Viewer</title>
@@ -87,7 +94,11 @@
 </style>
     <div class="mobileShow">
 <h4>IVX Station AR Viewer</h4>
-<p>ROTATE MODEL- Slide finger <br>ZOOM IN- Pinch two fingers</p><br><p>When using AR mode rotate and move model by sliding your finger along your mobile device screen. Tap to place model</p></p>
+<p>ROTATE MODEL- Slide finger while touching screen <br>ZOOM IN- Pinch in and out with two fingers touching screen</p><br><p>When using AR mode rotate/move model by sliding your finger on the screen and then tap to place model</p></p>
+</div>
+  <div class="mobileHide">
+<h4>IVX Station AR Viewer</h4>
+<p>ROTATE MODEL- Move model with left mouse click and slide <br>ZOOM IN- Mouse scroll button</p><br><p>To view this model in your space with AR please visit this webiste on a mobile device.</p></p>
 </div>
 
   
