@@ -3,19 +3,22 @@
 
 <head>
   <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        .imgbox {
-            display: grid;
-            height: 100%;
-        }
-        .center-fit {
-            width: auto;
-            max-height: 100vh;
-            margin: auto;
-        }
+        *{
+		margin:0;
+		padding:0;
+		}
+		html{
+		height: 100%;
+		width: 100%;
+		}
+		body {
+		  height: 100%;
+		  width: 100%;
+		}
+		model-viewer{
+		height:100%;
+		width:100%;
+		}
     </style>
   <style type="text/css">
      .mobileShow { display: none;}
@@ -92,10 +95,9 @@
   </style>
 
 <body>
-  <div class="imgbox">
-   <model-viewer src="asset/IVX Station AR Single_Final.glb" ar ar-modes="webxr scene-viewer quick-look" ios-src="asset/IVX Station AR Single_Final.usdz" shadow-intensity="5.0" environment-image="asset/workshop.hdr" ar-scale="fixed" ar ar-placement="floor" exposure="1.2" shadow-softness="1" camera-controls ar autoplay auto-rotate="">
+     <model-viewer src="asset/IVX Station AR Single_Final.glb" ar ar-modes="webxr scene-viewer quick-look" ios-src="asset/IVX Station AR Single_Final.usdz" shadow-intensity="5.0" environment-image="asset/workshop.hdr" ar-scale="fixed" ar ar-placement="floor" exposure="1.2" shadow-softness="1" camera-controls ar autoplay auto-rotate="">
     <button slot="ar-button" id="ar-button"> View in your space </button> </model-viewer>
-    </div>
+    
   <center><p><style>
   h4 {
     font-family: Verdana, "Open Sans", sans-serif;
