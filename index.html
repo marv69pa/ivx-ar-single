@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+        <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0;  user-scalable=0;" name="viewport">
+        <link rel="stylesheet" href="../includes/style.css">
   <style type="text/css">
    .mobileShow { display: none;}
    /* Smartphone Portrait and Landscape */
@@ -78,7 +81,8 @@
   </style>
 
 <body>
-  <model-viewer src="asset/IVX Station AR Single_Final.glb" ar ar-modes="webxr scene-viewer quick-look" ios-src="asset/IVX Station AR Single_Final.usdz" shadow-intensity="5.0" environment-image="asset/workshop.hdr" ar-scale="fixed" ar ar-placement="floor" exposure="1.2" shadow-softness="1" camera-controls ar autoplay auto-rotate="">
+  <body width = "device-width">
+          <model-viewer src="asset/IVX Station AR Single_Final.glb" ar ar-modes="webxr scene-viewer quick-look" ios-src="asset/IVX Station AR Single_Final.usdz" shadow-intensity="5.0" environment-image="asset/workshop.hdr" ar-scale="fixed" ar ar-placement="floor" exposure="1.2" shadow-softness="1" camera-controls ar autoplay auto-rotate="">
     <button slot="ar-button" id="ar-button">
     View in your space
   </button>
@@ -94,7 +98,7 @@
 </style>
     <div class="mobileShow">
 <picture>
-    <img src="asset/mobile_controls.png" style="width:auto;height:auto;">
+    <img class="test"  src="asset/mobile_controls.png" style="width:auto;height:auto;">
 </picture>
 </div>
   <div class="mobileHide">
