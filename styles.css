@@ -18,7 +18,7 @@ model-viewer {
 }
 
 #ar-button {
-  background-image: url(asset/ariconewhite.png);
+  background-image: none;
   background-repeat: no-repeat;
   background-size: 22px 26px;
   background-position: 12px 50%;
@@ -34,7 +34,7 @@ model-viewer {
   color: #ffffff;
   height: 36px;
   line-height: 36px;
-  border-radius: 18px;
+  border-radius: 0px;
   border: 0px solid #000000;
 }
 
